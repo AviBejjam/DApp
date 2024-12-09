@@ -1,0 +1,120 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.dog {
+  width: 100vw;
+  height: 100vh;
+  background: url('https://imageio.forbes.com/specials-images/imageserve/641223d5e1bacf622ecfd6f9/Digital-security-concept/960x0.jpg?format=jpg&width=960')
+    no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+h2 {
+  color: #fff;
+  font-size: 2em;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+.form-group {
+  position: relative;
+  width: 100%;
+  margin: 20px 0;
+  border-bottom: 2px solid #fff;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  height: 50px;
+  padding: 0 10px;
+  font-size: 1.2em;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.form-group select {
+  padding: 0 10px;
+  font-size: 1.2em;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.form-group label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  color: #fff;
+  transition: 0.5s;
+}
+
+input:focus ~ label,
+select:focus ~ label,
+input:valid ~ label,
+select:valid ~ label {
+  top: -10px;
+  font-size: 0.8em;
+  color: #ff0;
+}
+
+button#btn {
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button#btn:hover {
+  background: #ff0;
+  color: #000;
+}
+
+p {
+  text-align: center;
+  color: #fff;
+  margin: 10px 0;
+}
+
+p a {
+  text-decoration: none;
+  color: #ff0;
+  font-weight: bold;
+}
+
+p a:hover {
+  text-decoration: underline;
+}

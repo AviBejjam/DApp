@@ -1,0 +1,23 @@
+{
+  "name": "supply_chain_proj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "chai": "^4.3.4",
+    "ethers": "^6.13.4",
+    "mongoose": "^8.8.1",
+    "react-toastify": "^10.0.6"
+  },
+  "devDependencies": {
+    "chai-as-promised": "^8.0.0"
+  }
+}

@@ -1,0 +1,55 @@
+/* consumer-styles.css */
+
+.consumer-navbar {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .consumer-navbar h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .consumer-logout-button {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .consumer-logout-button svg {
+    margin-right: 8px;
+  }
+  
+  .consumer-top-right-box {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .consumer-top-right-box p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .consumer-content {
+    margin: 20px;
+  }
+  
+  .consumer-content h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  

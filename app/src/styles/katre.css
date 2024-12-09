@@ -1,0 +1,173 @@
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+p {
+  font-size: 1em;
+  color: black;
+  margin-bottom: 0.5em;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Adjusted for better alignment */
+  align-items: center; /* Vertically center elements */
+  background-color: #ff4d00;
+  color: white;
+  position: sticky;
+  top: 0;
+  width: 100vw; /* Ensures the navbar spans the full viewport width */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; /* Includes padding in width calculation */
+}
+
+.logout-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.logout-button svg {
+  margin-right: 8px;
+}
+
+.logout-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.logout-button a:hover {
+  text-decoration: underline;
+}
+
+.navbar h1 {
+  align-self: center;
+  font-size: 30px;
+  text-align: center;
+  flex-grow: 1;
+  color: black;
+}
+
+
+/* Centered Title */
+.centered-title {
+  text-align: center;
+  margin: 0;
+}
+
+/* Tile Styling */
+.tile {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Tile shadow */
+  margin: 20px 0;
+}
+
+.tile h1 {
+  text-align: left;
+  font-size: 2rem;
+  color: #2a2185;
+  margin-bottom: 20px;
+}
+
+.tile p,
+.tile table {
+  margin-top: 10px;
+}
+
+.tile table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Dashboard Box */
+.dashboard-box {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  margin-top: 40px; /* Add spacing between boxes */
+}
+
+.dashboard-box h2 {
+  margin-bottom: 20px;
+  color: #2a2185;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Recent Orders Table */
+.recent-orders-table table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.recent-orders-table th,
+.recent-orders-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.recent-orders-table th {
+  background-color: #f4f7fc;
+  color: #333;
+}
+
+.recent-orders-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.recent-orders-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.recent-orders-table td {
+  font-size: 14px;
+}
+
+/* Top-Right Box */
+.top-right-box {
+  position: absolute;
+  top: 80px;
+  right: 8px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.top-right-box p {
+  margin: 5px 0;
+}
+
+/* Miscellaneous */
+.pink {
+  padding: 1rem;
+  margin-top: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.unknown {
+  color: #999;
+}
+
+.content {
+  padding: 20px;
+}

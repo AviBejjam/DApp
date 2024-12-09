@@ -1,0 +1,63 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Finder tags
+*.localized
+*.DS_Store
+
+# Trashes and other metadata files
+.Trashes
+.Spotlight-V100
+._*
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Truffle/Hardhat/Solidity artifacts
+artifacts/
+cache/
+coverage/
+
+# Remix IDE files
+remixd.lock
+remix-compiler.log
+
+# Hardhat files
+typechain/
+coverage.json
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore build files
+dist/
+build/
+out/
+
+# Dependency directories
+node_modules/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+
+# IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

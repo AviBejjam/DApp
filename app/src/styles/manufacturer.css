@@ -1,0 +1,94 @@
+.manufacturer-container {
+  max-width: 100vw;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff7300;
+  color: white;
+  padding: 15px;
+  border-radius: 5px 5px 0 0;
+  top: 0;
+}
+
+.logout-button {
+  background: #ff0000;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  right: 10px;
+}
+
+.logout-button a {
+  color: black;
+  text-decoration: none;
+}
+
+.manufacturer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.manufacturer-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #333;
+}
+
+.manufacturer-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.manufacturer-form button {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.manufacturer-form button:hover {
+  background: #0056b3;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #28a745;
+}
+
+/* Top-Right Box */
+.top-right-box {
+  position: absolute;
+  top: 80px;
+  right: 8px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.top-right-box p {
+  margin: 5px 0;
+}

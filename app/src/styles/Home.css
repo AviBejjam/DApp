@@ -1,0 +1,55 @@
+.home {
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+
+.home h1 {
+  margin-bottom: 0.5em;
+  font-size: 30px;
+  text-align: left;
+  color: purple;
+}
+
+.items-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 20px; /* Increase font size */
+}
+
+.items-table th,
+.items-table td {
+  border: 1px solid #000000;
+  padding: 16px; /* Increase padding for a bigger table */
+  text-align: left;
+  color: black;
+}
+
+.items-table th {
+  background-color: #ffffff;
+  font-weight: bold;
+  font-size: 20px; /* Slightly larger font for headers */
+}
+
+.items-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.items-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.items-table td {
+  color: #333;
+}
+
+.items-table th {
+  color: #555;
+}
+
+.items-table {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+  width: 100%;
+}
+
+

@@ -1,0 +1,63 @@
+/* General styles */
+.retailer-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  /* Navbar styles */
+  .retailer-navbar {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .retailer-navbar h1 {
+    margin: 0;
+  }
+  
+  .retailer-logout-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .retailer-logout-button a {
+    color: white;
+    margin-left: 5px;
+    text-decoration: none;
+  }
+  
+  .retailer-logout-button a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Content styles */
+  .retailer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .retailer-box {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .retailer-box h1 {
+    margin: 0 0 10px;
+  }
+  
+  .retailer-box p {
+    margin: 5px 0;
+  }
+  
