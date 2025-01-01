@@ -68,12 +68,7 @@ To run this project, ensure the following tools are installed:
      ```
 
 4. **Set Up Environment Variables**
-   Create a `.env` file in the `app` directory and configure the following variables:
-   ```env
-   REACT_APP_CONTRACT_ADDRESS=your_smart_contract_address
-   REACT_APP_NETWORK_ID=your_network_id
-   MONGODB_URI=your_mongodb_connection_string
-   ```
+   Create a `.env` file in the `app` directory and configure the following variables
 
 5. **Run the React Application**
    Start the front end to interact with the blockchain network:
